@@ -31,6 +31,17 @@ Access the interactive NYC Taxi Analytics Dashboard:
 - **ETL:** dbt (data transformation)
 - **Visualization:** Plotly (interactive charts)
 
+## 🌍 Public Deployment
+This project is now prepared for public deployment on **Streamlit Cloud**.
+
+To deploy:
+1. Push the repo to GitHub.
+2. Sign in to Streamlit Cloud.
+3. Create a new app and connect it to this repo.
+4. Set the main file to `app.py`.
+
+The app uses a local DuckDB database file, so the dataset is included in the repository and will be available to the deployed app.
+
 ## 🧱 Auto-Start Dashboard
 The dashboard is configured to start automatically in the devcontainer environment using `.devcontainer/devcontainer.json`.
 
