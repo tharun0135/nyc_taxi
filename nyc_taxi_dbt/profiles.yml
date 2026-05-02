@@ -2,7 +2,7 @@
   outputs:
     dev:
       type: duckdb
-      path: 'C:\Users\sugal\Desktop\nyc_taxi_project\nyc_taxi.db'
+      path: '/workspaces/nyc_taxi/nyc_taxi.db'
       extensions:
         - httpfs
         - parquet

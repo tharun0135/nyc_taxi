@@ -30,12 +30,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
-  nyc_taxi_dbt:  # <--- This must match the 'profile' name in dbt_project.yml
-  outputs:
-    dev:
-      type: duckdb
-      path: 'C:\Users\sugal\Desktop\nyc_taxi_project\nyc_taxi.db'
-      extensions:
-        - httpfs
-        - parquet
-  target: dev
+  nyc_taxi_dbt:
