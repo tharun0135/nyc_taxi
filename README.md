@@ -11,3 +11,22 @@ An end-to-end Data Engineering pipeline using the **Medallion Architecture**. Th
 1. Clone the repo.
 2. Install dependencies: `pip install streamlit duckdb plotly dbt-duckdb`
 3. Run the dashboard: `streamlit run app.py`
+
+## 📊 Live Dashboard
+Access the interactive NYC Taxi Analytics Dashboard:
+
+**🌐 [View Full-Screen Dashboard](http://localhost:8501)**
+
+> **💡 Pro Tip:** For the best experience, view the dashboard in full-screen mode by clicking the fullscreen icon (⛶) in the top-right corner of the Streamlit interface.
+
+### Dashboard Features:
+- 📈 **Monthly Trip Volume** - Track taxi usage patterns over time
+- 📏 **Average Trip Distance** - Analyze distance trends by month
+- 📊 **Key Metrics** - Total trips, average distance, and duration
+- 📋 **Data Preview** - Raw monthly statistics table
+
+### Tech Stack:
+- **Frontend:** Streamlit (Python)
+- **Database:** DuckDB (fast analytical queries)
+- **ETL:** dbt (data transformation)
+- **Visualization:** Plotly (interactive charts)
