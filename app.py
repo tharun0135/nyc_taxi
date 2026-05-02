@@ -2,7 +2,13 @@
 import duckdb
 import plotly.express as px
 
-st.set_page_config(page_title="NYC Taxi Analytics", layout="wide")
+# Configure Streamlit server
+st.set_page_config(
+    page_title="NYC Taxi Analytics",
+    layout="wide",
+    page_icon="🚖"
+)
+
 st.title("🚖 NYC Taxi Data Warehouse Dashboard")
 st.markdown("Real-time insights from our **Gold Layer** (DuckDB + dbt)")
 
