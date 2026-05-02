@@ -1,0 +1,20 @@
+
+target/
+dbt_packages/
+logs/
+# Python environment
+data-warehouse-env/
+__pycache__/
+*.pyc
+
+# Local Database (Too large for GitHub)
+*.db
+
+# dbt artifacts
+nyc_taxi_dbt/target/
+nyc_taxi_dbt/dbt_packages/
+nyc_taxi_dbt/logs/
+
+# Sensitive info
+.env
+.aws/

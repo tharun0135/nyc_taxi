@@ -1,0 +1,9 @@
+﻿nyc_taxi_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'C:\Users\sugal\Desktop\nyc_taxi_project\nyc_taxi.db'
+      extensions:
+        - httpfs
+        - parquet
+  target: dev

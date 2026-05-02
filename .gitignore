@@ -1,0 +1,7 @@
+﻿nyc_taxi.db
+data-warehouse-env/
+__pycache__/
+logs/
+nyc_taxi_dbt/target/
+nyc_taxi_dbt/dbt_packages/
+nyc_taxi_dbt/logs/
