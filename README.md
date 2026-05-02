@@ -15,7 +15,7 @@ An end-to-end Data Engineering pipeline using the **Medallion Architecture**. Th
 ## 📊 Live Dashboard
 Access the interactive NYC Taxi Analytics Dashboard:
 
-**🌐 [View Full-Screen Dashboard](http://localhost:8501)**
+**🌐 [View Full-Screen Dashboard](https://redesigned-tribble-qwgxjxrg5xxhrq7-8501.app.github.dev/)**
 
 > **💡 Pro Tip:** For the best experience, view the dashboard in full-screen mode by clicking the fullscreen icon (⛶) in the top-right corner of the Streamlit interface.
 
