@@ -30,3 +30,14 @@ Access the interactive NYC Taxi Analytics Dashboard:
 - **Database:** DuckDB (fast analytical queries)
 - **ETL:** dbt (data transformation)
 - **Visualization:** Plotly (interactive charts)
+
+## 🧱 Auto-Start Dashboard
+The dashboard is configured to start automatically in the devcontainer environment using `.devcontainer/devcontainer.json`.
+
+If you want to keep the dashboard running locally without manually typing `streamlit run app.py`, use the helper script:
+
+```bash
+./scripts/start_dashboard.sh
+```
+
+This launches the app in the background and keeps it available on **http://localhost:8501**.
